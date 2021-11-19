@@ -1,0 +1,45 @@
+{
+    "name": "cb1",
+    "group": "server\/farm\/cb\/farm",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "createPosition",
+            "contents": [
+                "plot",
+                "47",
+                "157",
+                "45",
+                "plots1"
+            ]
+        },
+        {
+            "id": "teleport",
+            "contents": [
+                "target",
+                "plot"
+            ]
+        },
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§6§lAlpha§4Blocks §r§7>> §r§aDu wurdest zu §r§6§lCitybuild 1 §r§ateleportiert"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "cb1",
+            "subKey": "cb1"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

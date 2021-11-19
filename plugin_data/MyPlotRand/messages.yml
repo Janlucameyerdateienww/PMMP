@@ -1,0 +1,12 @@
+message.useIngame: "§cBitte benutze diesen Command ingame!"
+message.noPermissionCommand: "§cDu hast keine Berechtigung diesen Command zu benutzen!"
+
+successfully.changedBorder: "§aDu hast den Plot-Rand erfolgreich zu§5 {border}§a geändert!"
+successfully.addetBorder: "§aDu hast den Rand§5 {border}§a erfolgreich hinzugefügt!"
+successfully.deletedBorder: "§aDu hast den Rand§5 {border}§a erfolgreich gelöscht!"
+successfully.editedBorder: "§aDu hast den Rand§5 {border}§a erfolgreich bearbeitet!"
+
+error.my-plotDoesntExists: '§cDas MyPlot Plugin wurde auf deinem Server nicht gefunden! Bitte lade Das Plugin "MyPlot" auf den Server.'
+error.dataCouldNotBeEmpty: "§cDie Daten für den Rand sind nicht vollständig, bitte stelle sicher das du alle Daten ausgewählt/eingegeben hast und versuche es erneut!"
+error.noPermissionForBorder: "§cDu hast keine Berechtigung diesen Rand zu benutzen!"
+error.noPermissionForThis: "§cDu hast keine Berechtigung dieses Admin Feature zu benutzen!"

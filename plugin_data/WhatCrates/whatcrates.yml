@@ -1,0 +1,13 @@
+---
+version: 0
+whatcrates:
+  §c§lSuperTool Kiste:
+    world: plots1
+    x: 54
+    "y": 157
+    z: 29
+    key: supertool
+    rewards:
+    - cmd:First Win:say 1
+    - cmd:Second Win:say 2
+...

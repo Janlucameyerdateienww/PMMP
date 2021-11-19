@@ -1,0 +1,64 @@
+---
+nr:
+  command: nr
+  permission: mineflow.customcommand.true
+  description: §4§lBuy Netherrite §r§6[1] §r§a§l40.000$
+  subcommands: []
+farm:
+  command: farm
+  permission: mineflow.customcommand.true
+  description: §4Go on farmworld
+  subcommands: []
+cb:
+  command: cb
+  permission: mineflow.customcommand.true
+  description: §4Go on cb
+  subcommands: []
+farm1:
+  command: farm1
+  permission: mineflow.customcommand.true
+  description: |-
+    §2Farmwelt 1 §r§6[oberwelt] §r§a§l
+    Online
+  subcommands: []
+cb1:
+  command: cb1
+  permission: mineflow.customcommand.true
+  description: §4§1
+  subcommands: []
+lobby:
+  command: lobby
+  permission: mineflow.customcommand.true
+  description: ""
+  subcommands: []
+cbkatzmike:
+  command: cbkatzmike
+  permission: cb.transfer.cb.katzmike.cmd
+  description: ""
+  subcommands: []
+ultravorteil:
+  command: ultravorteil
+  permission: mineflow.customcommand.true
+  description: ""
+  subcommands: []
+buyultra:
+  command: buyultra
+  permission: mineflow.customcommand.true
+  description: ""
+  subcommands: []
+ultravorteillist:
+  command: ultravorteillist
+  permission: mineflow.customcommand.true
+  description: ""
+  subcommands: []
+pshops:
+  command: pshops
+  permission: mineflow.customcommand.true
+  description: Shop world
+  subcommands: []
+case:
+  command: case
+  permission: mineflow.customcommand.op
+  description: ""
+  subcommands: []
+...

@@ -1,0 +1,28 @@
+{
+    "name": "ultravorteil",
+    "group": "rang\/ultra",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "sendForm",
+            "contents": [
+                "target",
+                "vorteile"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "ultravorteil",
+            "subKey": "ultravorteil"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

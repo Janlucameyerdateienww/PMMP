@@ -1,0 +1,79 @@
+{
+    "name": "buy",
+    "group": "server\/nr",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "createItem",
+            "contents": [
+                "item",
+                "742",
+                "1",
+                ""
+            ]
+        },
+        {
+            "id": "if",
+            "contents": [
+                [
+                    {
+                        "id": "overMoney",
+                        "contents": [
+                            "{target.name}",
+                            "40000"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "id": "takeMoney",
+                        "contents": [
+                            "{target.name}",
+                            "40000"
+                        ]
+                    },
+                    {
+                        "id": "addItem",
+                        "contents": [
+                            "target",
+                            "item"
+                        ]
+                    },
+                    {
+                        "id": "sendMessage",
+                        "contents": [
+                            "target",
+                            "§a§lDu hast erfolgreich §r§6[Netherrite Ingot] §r§aGekauft"
+                        ]
+                    }
+                ]
+            ]
+        },
+        {
+            "id": "else",
+            "contents": [
+                {
+                    "id": "sendMessage",
+                    "contents": [
+                        "target",
+                        "§4Du hast nicht genug geld um dir §r§6[Netherrite Ingot] §r§4Zu kaufen §r§c§l[40.000$]"
+                    ]
+                }
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "nr",
+            "subKey": "nr"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

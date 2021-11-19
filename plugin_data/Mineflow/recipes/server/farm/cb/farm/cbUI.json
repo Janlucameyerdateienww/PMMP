@@ -1,0 +1,38 @@
+{
+    "name": "cbUI",
+    "group": "server\/farm\/cb\/farm",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "createPosition",
+            "contents": [
+                "plots",
+                "47",
+                "157",
+                "45",
+                "plots1"
+            ]
+        },
+        {
+            "id": "teleport",
+            "contents": [
+                "target",
+                "plots"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "cb",
+            "subKey": "cb"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

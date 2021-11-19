@@ -1,0 +1,60 @@
+command.name: "wand"
+command.description: "Ändere deine Plot-Wand"
+command.usage: "/wand"
+plot.subcommand.usage: "/p wand"
+command.aliases:
+  - "wall"
+plot.subcommand.alias: "wall"
+command.permission: "jeder"
+
+
+ui.button.close: "§cSchließen"
+
+ui.manage.title: "§4Wand§7 |§8 Management"
+ui.manage.description: "Hier kannst du die Wände für deine Spieler einstellen"
+ui.manage.button.selectWall: "§bWand auswählen"
+ui.manage.button.addWall: "§2Wand hinzufügen"
+ui.manage.button.deleteWall: "§4Wand löschen"
+ui.manage.button.editWall: "§8Wand bearbeiten"
+
+ui.select.title: "§4Wand§7 |§8 Auswählen"
+ui.select.description: ""
+
+ui.edit.title: "§4Wand§7 |§8 Bearbeiten"
+ui.edit.description: "Bitte wähle eine Wand aus die du bearbeiten möchtest"
+ui.edit.input.name: "§7Wand Name:"
+ui.edit.placeholder.name: "Beispiel"
+ui.edit.input.id: "§7Block Id"
+ui.edit.placeholder.id: "Block Id"
+ui.edit.input.meta: "§7Block Meta"
+ui.edit.placeholder.meta: "Block Meta"
+ui.edit.input.permission: "§7Permission"
+ui.edit.placeholder.permission: "Jeder"
+ui.edit.dropdown.image.type: "Bild Type (Website oder Path)"
+ui.edit.dropdown.image.type.url: "§7Website"
+ui.edit.dropdown.image.type.path: "§7Path"
+ui.edit.input.image.text: "§7Path/Bild Website"
+ui.edit.placeholder.image.text: "diamond_block"
+
+ui.delete.title: "§4Wand§7 |§8 Löschen"
+ui.delete.description: "Bitte wähle eine Wand aus um sie zu löschen"
+ui.delete.description.confirm: "§cBist du dir Sicher das du die Wand§5 {wall}§c löschen möchtest?"
+ui.delete.button.confirm: "§aBestätigen"
+ui.delete.button.cancel: "§cAbbrechen"
+
+ui.add.title: "§4Wand§7 |§8 Hinzufügen"
+
+
+permission.selectWall.admin: "myplot.admin.wand"
+permission.addWall: "myplot.admin.addwand"
+permission.deleteWall: "myplot.admin.deletewand"
+permission.editWall: "myplot.admin.editwall"
+
+
+format.unlocked: "§7»§a Freigeschalten"
+format.locked: "§7»§c Nicht freigeschalten"
+format.canUse: "§7»§a Berechtigt"
+format.cantUse: "§7»§c Keine Berechtigung"
+
+
+allow.breakBorder: false

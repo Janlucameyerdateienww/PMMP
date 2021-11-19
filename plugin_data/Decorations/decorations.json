@@ -1,0 +1,62 @@
+{
+  "dishes": {
+    "format": "§dDishes",
+    "entities": [
+      {
+        "id": "mug",
+        "model": {
+          "geometry": "mug.geo.json",
+          "identifier": "geometry.mug",
+          "texture": "mug.png"
+        },
+        "rotation": {
+          "yaw": 30,
+          "pitch": 0
+        },
+        "scale": 0.4,
+        "scale-range": {
+          "min": 0.1,
+          "max": 2
+        },
+        "format": "§6Coffee mug",
+        "price": 20,
+        "limit": 3,
+        "nametag": "§aDrink me!"
+      }
+    ]
+  },
+  "furniture": {
+    "format": "§eFurniture",
+    "entities": [
+      {
+        "id": "tv",
+        "model": {
+          "geometry": "television.geo.json",
+          "identifier": "geometry.television",
+          "texture": "television.png"
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 10
+        },
+        "scale": 2.1,
+        "format": "§7Flat Screen TV",
+        "price": 120,
+        "limit": 1,
+        "nametag": "§7Watch some stuff"
+      },
+      {
+        "id": "table",
+        "model": {
+          "geometry": "table.geo.json",
+          "identifier": "geometry.table",
+          "texture": "table.png"
+        },
+        "scale": 1.2,
+        "format": "§cSmall table",
+        "price": 65,
+        "limit": 1
+      }
+    ]
+  }
+}

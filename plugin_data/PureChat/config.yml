@@ -1,0 +1,45 @@
+---
+version: 1.4.10-6
+default-factions-plugin: FactionsPro
+enable-multiworld-chat: false
+groups:
+  manager:
+    chat: §4§lManager §r§7>> §r§4§l{display_name} §r§7>> §r§f§l{msg}
+    nametag: §4§lManager §r§7>> §r§4§l{display_name}
+  owner:
+    chat: §4§lOwner §r§7>> §r§4§l{display_name} §r§7>> §r§f§l{msg}
+    nametag: §4§lOwner §r§7>> §r§4§l{display_name}
+  ultra:
+    nametag: §6Ultra §r§7>> §r§f{display_name}
+    chat: §6Ultra §r§7>> §r§f{display_name} §r§7>> §r§e§l{msg}
+  admin:
+    chat: §4§lAdmin §r§7>> §r§4§l{display_name} §r§7>> §r§f§l{msg}
+    nametag: §4§lAdmin §r§7>> §r§4§l{display_name}
+  sup:
+    nametag: §e§lSupporter §r§6§l{display_name}§r§7
+    chat: §e§lSupporter §r§6§l{display_name}§r§7 >> §r§6{msg}
+  dev:
+    nametag: §9§lDeveloper §r§6§l{display_name}
+    chat: §9§lDeveloper §r§6§l{display_name} §r§7>> §r§f§l{msg}
+  spieler:
+    nametag: '&8&lSpieler&f&r§r§7>> {display_name}'
+    chat: '&8&lSpieler&f&r§r§7>> {display_name} §r§7>> §r§7{msg}'
+  alt78295:
+    nametag: '&8&lSpieler&f&r§r§7>> TrendyMirrow3345'
+    chat: '&8&lSpieler&f&r§r§7>> TrendyMirrow3345 §r§7>> §r§7{msg}'
+  alt48294:
+    nametag: '&8&lSpieler&f&r§r§7>> juju754823'
+    chat: '&8&lSpieler&f&r§r§7>> juju754823 §r§7>> §r§7{msg}'
+  alt67294:
+    nametag: '&8&lSpieler&f&r§r§7>> coalminer4486'
+    chat: '&8&lSpieler&f&r§r§7>> coalminer4486 §r§7>> §r§7{msg}'
+  alt285902:
+    nametag: '&8&lSpieler&f&r§r§7>> DAT_ITGF'
+    chat: '&8&lSpieler&f&r§r§7>> DAT_ITGF §r§7>> §r§7{msg}'
+  alt19736:
+    nametag: '&8&lSpieler&f&r§r§7>> Anninchenn'
+    chat: '&8&lSpieler&f&r§r§7>> Anninchenn §r§7>> §r§7{msg}'
+  alt15794:
+    nametag: '&8&lSpieler&f&r§r§7>> UltraKirito'
+    chat: '&8&lSpieler&f&r§r§7>> UltraKirito §r§7>> §r§7{msg}'
+...

@@ -1,0 +1,73 @@
+---
+Borders:
+  3:
+    name: §f§lLuft
+    id: 0
+    meta: 0
+    permission: rand.air
+    imagetype: 1
+    image: ""
+  4:
+    name: §2§lDunkle prismarinstufe
+    id: 182
+    meta: 3
+    permission: rand.d.prisma
+    imagetype: 1
+    image: ""
+  5:
+    name: §b§lLeuchtfeuer
+    id: 138
+    meta: 0
+    permission: rand.beacon
+    imagetype: 1
+    image: beacon
+  6:
+    name: §b§lPrismarin
+    id: 182
+    meta: 2
+    permission: rand.h.prisma
+    imagetype: 1
+    image: prismarine_slab
+  7:
+    name: §d§lPurpur Stufe
+    id: 182
+    meta: 1
+    permission: rand.purp.h
+    imagetype: 1
+    image: purpur_slab
+  8:
+    name: §f§lQuartzstfe
+    id: 44
+    meta: 6
+    permission: rand.qua.n
+    imagetype: 1
+    image: quartz_slab
+  9:
+    name: §4§lRote Netherzigelstufe
+    id: 182
+    meta: 7
+    permission: rand.r.nth.ziegel
+    imagetype: 1
+    image: red_nether_brick_slab
+  10:
+    name: §9§lnetherzigelstufe
+    id: 44
+    meta: 7
+    permission: rand.nth.ziegel
+    imagetype: 1
+    image: nether_brick_slab
+  11:
+    name: §b§lPrismarinstufe
+    id: 182
+    meta: 4
+    permission: rand.n.prisma
+    imagetype: 1
+    image: prismarine_bricks_slab
+  12:
+    name: §6§lFackel
+    id: 50
+    meta: 0
+    permission: rand.t
+    imagetype: 1
+    image: torch_on
+...

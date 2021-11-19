@@ -1,0 +1,56 @@
+{
+    "name": "ultravorteilefull",
+    "group": "rang\/ultra",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§c§lMit Ultra kannst du: §r§a\n§c\n§a§lDu kannst du KatzMike's Citybuild \nLuft Rand\nPrismarin Rand"
+            ]
+        },
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§a§lNetherziegel Rand\nQuartz Block Rand \nRoter Netherziegel Rand\nFackel Rand"
+            ]
+        },
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§a§lDu kannst 2 Plots haben\nDu kannst §4Rote§r§a§l Laufpartikel haben"
+            ]
+        },
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§a§lDu kannst §2§lGrüne §r§a§lLaufpartikel haben"
+            ]
+        },
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§a§lDu kannst §9§lBlaue §r§a§lLaufpartikel haben"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "ultravorteillist",
+            "subKey": "ultravorteillist"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

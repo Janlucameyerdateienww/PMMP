@@ -1,0 +1,104 @@
+---
+owner:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+admin:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - sup
+  - dev
+  - spieler
+  - ultra
+  permissions: []
+  worlds: []
+sup:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - spieler
+  - ultra
+  permissions: []
+  worlds: []
+dev:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - sup
+  - spieler
+  - ultra
+  permissions: []
+  worlds: []
+manager:
+  alias: ""
+  isDefault: false
+  inheritance: ~
+  permissions: []
+  worlds: []
+ultra:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - spieler
+  permissions:
+  - cb.transfer.cb.katzmike.cmd
+  - colorparticle.permission
+  - colorparticle.permission.blue
+  - colorparticle.permission.green
+  - colorparticle.permission.red
+  - myplot.claimplots.2
+  - rand.air
+  - rand.n.prisma
+  - rand.nth.ziegel
+  - rand.qua.n
+  - rand.r.nth.ziegel
+  - rand.t
+  worlds: []
+spieler:
+  alias: ""
+  isDefault: true
+  inheritance: []
+  permissions:
+  - myplot.claimplots.1
+  - rand.t
+  worlds: []
+alt78295:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+alt48294:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+alt67294:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+alt285902:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+alt19736:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+alt15794:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+...

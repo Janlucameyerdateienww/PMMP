@@ -1,0 +1,12 @@
+message.useIngame: "§cBitte benutze diesen Command ingame!"
+message.noPermissionCommand: "§cDu hast keine Berechtigung diesen Command zu benutzen!"
+
+successfully.changedWall: "§aDu hast die Plot-Wand erfolgreich zu§5 {wall}§a geändert!"
+successfully.addetWall: "§aDu hast die Wand§5 {wall}§a erfolgreich hinzugefügt!"
+successfully.deletedWall: "§aDu hast die Wand§5 {wall}§a erfolgreich gelöscht!"
+successfully.editedWall: "§aDu hast die Wand§5 {wall}§a erfolgreich bearbeitet!"
+
+error.my-plotDoesntExists: '§cDas MyPlot Plugin wurde auf deinem Server nicht gefunden! Bitte lade Das Plugin "MyPlot" auf den Server.'
+error.dataCouldNotBeEmpty: "§cDie Daten für die Wand sind nicht vollständig, bitte stelle sicher das du alle Daten ausgewählt/eingegeben hast und versuche es erneut!"
+error.noPermissionForWall: "§cDu hast keine Berechtigung diese Wand zu benutzen!"
+error.noPermissionForThis: "§cDu hast keine Berechtigung dieses Admin Feature zu benutzen!"

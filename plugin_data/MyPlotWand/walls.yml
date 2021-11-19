@@ -1,0 +1,22 @@
+Walls:
+  1:
+    name: §4Glas§7 Wand
+    id: 20
+    meta: 0
+    permission: jeder
+    imagetype: 0
+    image: textures/blocks/glass
+  2:
+    name: §9Bedrock§7 Wand
+    id: 7
+    meta: 0
+    permission: wand.bedrock
+    imagetype: 0
+    image: textures/blocks/bedrock
+  3:
+    name: §6Erde§7 Wand
+    id: 2
+    meta: 0
+    permission: wand.dirt
+    imagetype: 1
+    image: https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Plains_Grass_Block.png/revision/latest?cb=20190525093706

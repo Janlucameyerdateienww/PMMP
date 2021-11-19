@@ -1,0 +1,45 @@
+{
+    "name": "cbshop",
+    "group": "server\/farm\/cb\/farm",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "createPosition",
+            "contents": [
+                "pos",
+                "-1",
+                "60",
+                "-1",
+                "server.cb.shops"
+            ]
+        },
+        {
+            "id": "teleport",
+            "contents": [
+                "target",
+                "pos"
+            ]
+        },
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§4§lAuf diesem Citybuild Nur Shops Bauen!"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "pshops",
+            "subKey": "pshops"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

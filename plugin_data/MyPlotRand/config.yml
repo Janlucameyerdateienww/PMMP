@@ -1,0 +1,61 @@
+command.name: "rand"
+command.description: "Ändere deinen Plot-Rand"
+command.usage: "/rand"
+plot.subcommand.usage: "/p rand"
+command.aliases:
+  - "border"
+  - "b"
+plot.subcommand.alias: "border"
+command.permission: "jeder"
+
+
+ui.button.close: "§cSchließen"
+
+ui.manage.title: "§4Rand§7 |§8 Management"
+ui.manage.description: "Hier kannst du die Rände für deine Spieler einstellen"
+ui.manage.button.selectBorder: "§bRand auswählen"
+ui.manage.button.addBorder: "§2Rand hinzufügen"
+ui.manage.button.deleteBorder: "§4Rand löschen"
+ui.manage.button.editBorder: "§8Rand bearbeiten"
+
+ui.select.title: "§4Rand§7 |§8 Auswählen"
+ui.select.description: ""
+
+ui.edit.title: "§4Rand§7 |§8 Bearbeiten"
+ui.edit.description: "Bitte wähle einen Rand aus den du bearbeiten möchtest"
+ui.edit.input.name: "§7Rand Name:"
+ui.edit.placeholder.name: "Beispiel"
+ui.edit.input.id: "§7Block Id:"
+ui.edit.placeholder.id: "Block Id"
+ui.edit.input.meta: "§7Block Meta:"
+ui.edit.placeholder.meta: "Block Meta"
+ui.edit.input.permission: "§7Permission:"
+ui.edit.placeholder.permission: "Jeder"
+ui.edit.dropdown.image.type: "Bild Type (Website oder Path)"
+ui.edit.dropdown.image.type.url: "§7Website"
+ui.edit.dropdown.image.type.path: "§7Path"
+ui.edit.input.image.text: "§7Path/Bild Website"
+ui.edit.placeholder.image.text: "emerald_block"
+
+ui.delete.title: "§4Rand§7 |§8 Löschen"
+ui.delete.description: "Bitte wähle eine Rand aus um ihn zu löschen"
+ui.delete.description.confirm: "§cBist du dir Sicher das du den Rand§5 {border}§c löschen möchtest?"
+ui.delete.button.confirm: "§aBestätigen"
+ui.delete.button.cancel: "§cAbbrechen"
+
+ui.add.title: "§4Rand§7 |§8 Hinzufügen"
+
+
+permission.selectBorder.admin: "myplot.admin.rand"
+permission.addBorder: "myplot.admin.addrand"
+permission.deleteBorder: "myplot.admin.deleterand"
+permission.editBorder: "myplot.admin.editrand"
+
+
+format.unlocked: "§7»§a Freigeschalten"
+format.locked: "§7»§c Nicht freigeschalten"
+format.canUse: "§7»§a Berechtigt"
+format.cantUse: "§7»§c Keine Berechtigung"
+
+
+allow.breakBorder: false

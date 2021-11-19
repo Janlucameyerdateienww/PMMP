@@ -1,0 +1,118 @@
+{
+    "farm": {
+        "name": "farm",
+        "type": "custom_form",
+        "form": {
+            "type": "custom_form",
+            "title": "§b§lFarmwelt Userinterface",
+            "content": []
+        }
+    },
+    "farmui": {
+        "name": "farmui",
+        "type": "form",
+        "form": {
+            "type": "form",
+            "title": "farmui",
+            "content": "§4§lWähle einen Server aus \n§cWARNUNG\n§4Nehm keine rüstung §c(Chestplate,elytra) mit",
+            "buttons": [
+                {
+                    "text": "§2§lFarmwelt 1 §r§6[oberwelt] §r§a§l\nOnline",
+                    "id": "64afca2b-a2c9-2b4f-e2c6-d12bed186c09",
+                    "image": null,
+                    "mineflow": {
+                        "command": "farm1",
+                        "type": "commandButton"
+                    }
+                }
+            ]
+        }
+    },
+    "§b§lFarmwelt Userinterface": {
+        "name": "§b§lFarmwelt Userinterface",
+        "type": "custom_form",
+        "form": {
+            "type": "custom_form",
+            "title": "§b§lFarmwelt Userinterface",
+            "content": []
+        }
+    },
+    "cbui": {
+        "name": "cbui",
+        "type": "form",
+        "form": {
+            "type": "form",
+            "title": "cbui",
+            "content": "§6Zurück zum Citybuild ",
+            "buttons": [
+                {
+                    "text": "§4§lCitybuild 1 §r§7\n§a§lOnline",
+                    "id": "cd4a2745-9df5-e9e5-7db3-ecc9237ff03f",
+                    "image": null,
+                    "mineflow": {
+                        "command": "cb1",
+                        "type": "commandButton"
+                    }
+                }
+            ]
+        }
+    },
+    "vorteile": {
+        "name": "vorteile",
+        "type": "form",
+        "form": {
+            "type": "form",
+            "title": "§4§lUltra Rang Vorteile",
+            "content": "§r§aUltra Rang Vorteile\nKatzMike cb \n2 Grundstücke\nLuft rand\nprismarin rang\nRote netherziegel",
+            "buttons": [
+                {
+                    "text": "§a§lKaufen",
+                    "id": "7d9ffa34-ab8e-ca49-f07c-f39e0abf2a30",
+                    "image": null,
+                    "mineflow": {
+                        "command": "buyultra",
+                        "type": "commandButton"
+                    }
+                },
+                {
+                    "text": "§b§lAlle Vorteile",
+                    "id": "0b797fd0-2830-6bf3-941d-580e04851de0",
+                    "image": null,
+                    "mineflow": {
+                        "command": "ultravorteillist",
+                        "type": "commandButton"
+                    }
+                }
+            ]
+        }
+    },
+    "§4§lUltra Rang Vorteile": {
+        "name": "§4§lUltra Rang Vorteile",
+        "type": "form",
+        "form": {
+            "type": "form",
+            "title": "§4§lUltra Rang Vorteile",
+            "content": "§r§aUltra Rang Vorteile\nKatzMike cb \n2 Grundstücke\nLuft rand\nprismarin rang\nRote netherziegel",
+            "buttons": [
+                {
+                    "text": "§a§lKaufen",
+                    "id": "7d9ffa34-ab8e-ca49-f07c-f39e0abf2a30",
+                    "image": null,
+                    "mineflow": {
+                        "command": "buyultra",
+                        "type": "commandButton"
+                    }
+                },
+                {
+                    "text": "§b§lAlle Vorteile",
+                    "id": "0b797fd0-2830-6bf3-941d-580e04851de0",
+                    "image": null,
+                    "mineflow": {
+                        "command": "ultravorteillist",
+                        "type": "commandButton"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+---
+#Common Settings
+common.price: 50000
+common.amount: 1 
+common.success.purchase: "§aKamu Berhasil Membeli Kunci Common!!"
+#UnCommon Settings
+uncommon.price: 100000
+uncommon.amount: 1 
+uncommon.success.purchase: "§aKamu Berhasil Membeli Kunci UnCommon!!"
+#Mythic Settings
+mythic.price: 150000
+mythic.amount: 1 
+mythic.success.purchase: "§aKamu Berhasil Membeli Kunci Mythic!"
+#Legendary Settings
+legendary.price: 200000
+legendary.amount: 1 
+legendary.success.purchase: "§aKamu Berhasil Membeli Kunci Legendary!"
+#More Message
+not.enough.money: "§cUang Kamu Tidak Cukup Untuk Membeli!"
+...

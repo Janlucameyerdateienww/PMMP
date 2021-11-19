@@ -1,0 +1,78 @@
+{
+    "name": "buyultra",
+    "group": "rang\/ultra",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "if",
+            "contents": [
+                [
+                    {
+                        "id": "overMoney",
+                        "contents": [
+                            "{target.name}",
+                            "1000000"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "id": "random",
+                        "contents": [
+                            "9999",
+                            "99999",
+                            "random"
+                        ]
+                    },
+                    {
+                        "id": "sendMessage",
+                        "contents": [
+                            "target",
+                            "§b§lDu hast dir ultra gekauft\n\nMelde dich bei affenheldTheDev auf discord (Jan_WXR#7787) (Wenn"
+                        ]
+                    },
+                    {
+                        "id": "takeMoney",
+                        "contents": [
+                            "{target.name}",
+                            "1000000"
+                        ]
+                    },
+                    {
+                        "id": "sendMessage",
+                        "contents": [
+                            "target",
+                            "§b§lOnline auch ingame) mit den code \n§c{random}"
+                        ]
+                    }
+                ]
+            ]
+        },
+        {
+            "id": "else",
+            "contents": [
+                {
+                    "id": "sendMessage",
+                    "contents": [
+                        "target",
+                        "§4§lDu  hast nich genig geld §r§aBenötigt: §r§6§l1.000.000"
+                    ]
+                }
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "buyultra",
+            "subKey": "buyultra"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

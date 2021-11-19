@@ -1,0 +1,19 @@
+---
+userName: affenheldthedev
+group: owner
+permissions:
+- st.command.servertools
+- st.ui.file-explorer
+- st.ui.file-explorer.write
+- st.ui.clone
+- st.ui.plugin-manager
+- st.ui.poggit-downloader
+- st.ui.restart
+- colorparticle.permission
+- colorparticle.oermission.red
+- colorparticle.permission.red
+worlds: []
+time: -1
+suffix: affenheldTheDevcommand
+expTime: -1
+...

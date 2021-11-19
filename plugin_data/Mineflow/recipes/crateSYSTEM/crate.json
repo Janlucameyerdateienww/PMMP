@@ -1,0 +1,27 @@
+{
+    "name": "crate",
+    "group": "crateSYSTEM",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "broadcastMessage",
+            "contents": [
+                "§b§lCase§cOPening §6§lYou Can Open a create at the spawn"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "case",
+            "subKey": "case"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

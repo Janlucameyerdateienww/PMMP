@@ -1,0 +1,161 @@
+{
+    "name": "farmCMD",
+    "group": "server\/farm\/cb\/farm",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "addEffect",
+            "contents": [
+                "target",
+                "23",
+                "30",
+                "255",
+                false
+            ]
+        },
+        {
+            "id": "addEffect",
+            "contents": [
+                "target",
+                "regeneration",
+                "30",
+                "255",
+                false
+            ]
+        },
+        {
+            "id": "createItem",
+            "contents": [
+                "fire",
+                "fireworks",
+                "16",
+                ""
+            ]
+        },
+        {
+            "id": "createPosition",
+            "contents": [
+                "posFW",
+                "0",
+                "200",
+                "0",
+                "farmwelt.fw"
+            ]
+        },
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§6§lAlpha§4Blocks §r§7>> §r§aDu wurdest in §r§6§lFarmwelt 1 §r§ateleportiert"
+            ]
+        },
+        {
+            "id": "addItem",
+            "contents": [
+                "target",
+                "fire"
+            ]
+        },
+        {
+            "id": "showBossbar",
+            "contents": [
+                "target",
+                "§b§lDu hast 30 Sekunden Schutzzeit",
+                "10",
+                "10",
+                "farm.schutz"
+            ]
+        },
+        {
+            "id": "teleport",
+            "contents": [
+                "target",
+                "posFW"
+            ]
+        },
+        {
+            "id": "createItem",
+            "contents": [
+                "item",
+                "elytra",
+                "1",
+                ""
+            ]
+        },
+        {
+            "id": "equipArmor",
+            "contents": [
+                "target",
+                "item",
+                "1"
+            ]
+        },
+        {
+            "id": "wait",
+            "contents": [
+                "30"
+            ]
+        },
+        {
+            "id": "createItem",
+            "contents": [
+                "item",
+                "air",
+                "",
+                ""
+            ]
+        },
+        {
+            "id": "equipArmor",
+            "contents": [
+                "target",
+                "item",
+                "1"
+            ]
+        },
+        {
+            "id": "createItem",
+            "contents": [
+                "elytra",
+                "elytra",
+                "",
+                ""
+            ]
+        },
+        {
+            "id": "removeItem",
+            "contents": [
+                "target",
+                "elytra"
+            ]
+        },
+        {
+            "id": "removeItem",
+            "contents": [
+                "target",
+                "fire"
+            ]
+        },
+        {
+            "id": "removeBossbar",
+            "contents": [
+                "target",
+                "farm.schutz"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "farm1",
+            "subKey": "farm1"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

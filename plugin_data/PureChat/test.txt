@@ -1,0 +1,25 @@
+---
+version: 1.4.10-6
+default-factions-plugin: FactionsPro
+enable-multiworld-chat: false
+groups:
+  owner:
+    chat: '§4§lOwner §r§7>> §r§4§l{display_name} §r§7>> §r§f§l{msg}'
+    nametag: '§4§lOwner §r§7>> §r§4§l{display_name}'
+  ultra:
+    nametag: '§6Ultra §r§7>> §r§f{display_name}'
+    chat: '§6Ultra §r§7>> §r§f{display_name} §r§7>> §r§e§l{msg}'
+  admin:
+    chat: '§4§lAdmin §r§7>> §r§4§l{display_name} §r§7>> §r§f§l{msg}'
+    nametag: '§4§lAdmin §r§7>> §r§4§l{display_name}'
+  sup:
+    nametag: '§e§lSppporter §r§6§l{display_name}§r§7'
+    chat: '§e§lSppporter §r§6§l{display_name}§r§7 >> §r§6{msg}}'
+  dev:
+    nametag: '§9§lDeveloper §r§6§l{display_name}'
+    chat: '§9§lDeveloper §r§6§l{display_name} §r§7>> §r§f§l{chat}'
+  spieler:
+    nametag: '&8&lSpieler&f&r§r§7>> {display_name}'
+    chat: '&8&lSpieler&f&r§r§7>> {display_name} §r§7>> §r§7{msg}'
+...
+ssssss

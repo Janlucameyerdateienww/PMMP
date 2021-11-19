@@ -1,0 +1,14 @@
+---
+pocketmine\event\inventory\FurnaceBurnEvent: true
+pocketmine\event\level\LevelLoadEvent: true
+pocketmine\event\player\PlayerBedEnterEvent: true
+pocketmine\event\entity\EntityDeathEvent: true
+pocketmine\event\player\PlayerDropItemEvent: true
+pocketmine\event\player\PlayerExhaustEvent: true
+pocketmine\event\player\PlayerMoveEvent: true
+pocketmine\event\player\PlayerToggleSprintEvent: true
+pocketmine\event\entity\ProjectileHitEntityEvent: true
+pocketmine\event\block\SignChangeEvent: true
+pocketmine\event\inventory\InventoryPickupItemEvent: true
+pocketmine\event\player\PlayerChangeSkinEvent: true
+...

@@ -1,0 +1,48 @@
+{
+    "name": "FarmREQUESTUI",
+    "group": "server\/farm\/cb\/farm",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§4§l------------- §cWarnung §4------------- \n\n\n §aNehme keine  Elytra, Rüstung mit, sie gehen"
+            ]
+        },
+        {
+            "id": "sendMessage",
+            "contents": [
+                "target",
+                "§a§lVerloren \n\n§r§4§l------------- §cWarnung §4-------------"
+            ]
+        },
+        {
+            "id": "wait",
+            "contents": [
+                "10"
+            ]
+        },
+        {
+            "id": "sendForm",
+            "contents": [
+                "target",
+                "farmui"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "farm",
+            "subKey": "farm"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

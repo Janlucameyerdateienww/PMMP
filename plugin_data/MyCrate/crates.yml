@@ -1,0 +1,30 @@
+---
+- name: §c§lSupertool§r
+  pos:
+    x: 61
+    "y": 157
+    z: 53
+    level: plots1
+  items:
+  - id: 444
+    meta: 0
+    count: 1
+    nbt: "\n\0\0\t\x04\0ench\n\x02\0\0\0\x02\x02\0id\x1A\0\x02\x03\0lvl\x01\0\0\x02\x02\0id\x11\0\x02\x03\0lvl\n\0\0\x03\x12\0PiggyCEItemVersion\0\0\0\0\n\a\0display\b\x04\0Name\x1F\0§c§laffenheld
+      Elytra §r§bv1\t\x04\0Lore\b\x05\0\0\0\0\0\0\0\0\0\x14\0§4§lGewinn aus der\x15\0§c§lSupertool
+      Kiste\0\0"
+  - id: 278
+    meta: 0
+    count: 1
+    nbt: "\n\0\0\t\x04\0ench\n\x04\0\0\0\x02\x02\0id\x11\0\x02\x03\0lvl\n\0\0\x02\x02\0id\x0F\0\x02\x03\0lvl\n\0\0\x02\x02\0id\x12\0\x02\x03\0lvl\n\0\0\x02\x02\0id\x10\0\x02\x03\0lvl\n\0\0\x03\x12\0PiggyCEItemVersion\0\0\0\0\n\a\0display\b\x04\0Name\x1E\0§c§laffenheld
+      Hacke §r§bv1\0\0"
+  - id: 277
+    meta: 0
+    count: 1
+    nbt: "\n\0\0\t\x04\0ench\n\x03\0\0\0\x02\x02\0id\x11\0\x02\x03\0lvl\n\0\0\x02\x02\0id\x0F\0\x02\x03\0lvl\n\0\0\x02\x02\0id\x1A\0\x02\x03\0lvl\x01\0\0\x03\x12\0PiggyCEItemVersion\0\0\0\0\n\a\0display\b\x04\0Name!\0§c§laffenheld
+      Schaufel §r§bv1\0\0"
+  - id: 276
+    meta: 0
+    count: 1
+    nbt: "\n\0\0\t\x04\0ench\n\x05\0\0\0\x02\x02\0id\x11\0\x02\x03\0lvl\n\0\0\x02\x02\0id\x0F\0\x02\x03\0lvl\n\0\0\x02\x02\0id\t\0\x02\x03\0lvl\n\0\0\x02\x02\0id\x0E\0\x02\x03\0lvl\x03\0\0\x02\x02\0id\x1A\0\x02\x03\0lvl\x01\0\0\x03\x12\0PiggyCEItemVersion\0\0\0\0\n\a\0display\b\x04\0Name
+      \0§c§laffenheld Schwert §r§bv1\0\0"
+...

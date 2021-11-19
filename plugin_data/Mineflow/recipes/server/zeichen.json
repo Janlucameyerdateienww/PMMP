@@ -1,0 +1,29 @@
+{
+    "name": "zeichen",
+    "group": "server",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "getPlayer",
+            "contents": [
+                "affenheldTheDev",
+                "player"
+            ]
+        },
+        {
+            "id": "command",
+            "contents": [
+                "player",
+                "setsuffix {target} command"
+            ]
+        }
+    ],
+    "triggers": [],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

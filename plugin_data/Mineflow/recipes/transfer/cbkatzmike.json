@@ -1,0 +1,28 @@
+{
+    "name": "cbkatzmike",
+    "group": "transfer",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "command",
+            "contents": [
+                "target",
+                "transferserver 192.168.1.169 19134"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "command",
+            "key": "cbkatzmike",
+            "subKey": "cbkatzmike"
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}

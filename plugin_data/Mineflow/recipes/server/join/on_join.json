@@ -1,0 +1,38 @@
+{
+    "name": "on_join",
+    "group": "server\/join",
+    "plugin_version": "2.5.2",
+    "author": "affenheldTheDev",
+    "actions": [
+        {
+            "id": "createPosition",
+            "contents": [
+                "pos",
+                "46",
+                "160",
+                "45",
+                "plots1"
+            ]
+        },
+        {
+            "id": "teleport",
+            "contents": [
+                "target",
+                "pos"
+            ]
+        }
+    ],
+    "triggers": [
+        {
+            "type": "event",
+            "key": "pocketmine\\event\\player\\PlayerJoinEvent",
+            "subKey": ""
+        }
+    ],
+    "target": {
+        "type": 1,
+        "options": []
+    },
+    "arguments": [],
+    "returnValues": []
+}
